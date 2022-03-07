@@ -1,16 +1,8 @@
-import { dotEnv } from '../deps.ts';
 import { IConfiguration } from './interfaces/configuration.interface.ts';
 import { Environment } from './interfaces/env.enum.ts';
 
 const env: Environment = (Deno.env.toObject().ENV || 'test') as Environment;
-const envPath: string = `.env/.env.${env}`.toString();
-let envConfig = dotEnv({
-  path: envPath,
-});
-
-if (env === Environment.PRODUCTION) {
-  envConfig = Deno.env.toObject();
-}
+const envConfig = Deno.env.toObject();
 
 /**
  * Configuration
