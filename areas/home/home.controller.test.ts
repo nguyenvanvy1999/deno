@@ -1,5 +1,9 @@
 import { HomeController } from "./home.controller.ts";
-import { assertEquals, assertThrows } from "../../deps_test.ts";
+import {
+  AlosaurResponse,
+  assertEquals,
+  assertThrows,
+} from "../../deps_test.ts";
 
 Deno.test({
   name: "Home Controller",
@@ -42,6 +46,17 @@ Deno.test({
     await t.step("get param id name", () => {
       const result = controller.gerParamIdName("123", "name");
       assertEquals(result, "123 name");
+    });
+
+    await t.step("put query", () => {
+      const result = controller.putQuery("123", "name", "c", "d");
+      assertEquals(result, { "0": "d", a: "123", b: "name", c: "c" });
+    });
+
+    await t.step("put query", () => {
+      const result = controller.json(new AlosaurResponse());
+      assertEquals(result.status, undefined);
+      assertEquals(result.body, undefined);
     });
 
     await t.step("get param id name details", () => {
