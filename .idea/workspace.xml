@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="866aba2a-9df0-4dc9-98c8-41acccd4f50b" name="Changes" comment="test: add home unit test">
-      <change afterPath="$PROJECT_DIR$/.idea/deno.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/areas/health/health.controller.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/areas/info/info.controller.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/areas/root/root.controller.spec.ts" afterDir="false" />
+    <list default="true" id="866aba2a-9df0-4dc9-98c8-41acccd4f50b" name="Changes" comment="chore: webstorm config">
+      <change afterPath="$PROJECT_DIR$/.github.ci" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +32,17 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="df712317-3e65-457f-a3ea-664b4686dc0d" />
+        <option name="url" value="https://github.com/nguyenvanvy1999/deno.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -58,13 +67,16 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="true" />
   </component>
-  <component name="RunManager" selected="Deno.Deno: test">
+  <component name="RunManager" selected="Deno.Deno: coverage">
+    <configuration name="Deno: coverage" type="DenoConfigurationType" inputPath="$PROJECT_DIR$" programParameters="coverage ./coverage --lcov &gt; coverage.lcov">
+      <method v="2" />
+    </configuration>
     <configuration name="Deno: fmt" type="DenoConfigurationType" inputPath="$PROJECT_DIR$" programParameters="fmt">
       <method v="2" />
     </configuration>
@@ -78,10 +90,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Deno.Deno: run app.ts" />
-      <item itemvalue="Deno.Deno: test" />
       <item itemvalue="Deno.Deno: fmt" />
       <item itemvalue="Deno.Deno: lint" />
+      <item itemvalue="Deno.Deno: run app.ts" />
+      <item itemvalue="Deno.Deno: test" />
+      <item itemvalue="Deno.Deno: coverage" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -95,6 +108,10 @@
       <workItem from="1646828795987" duration="1396000" />
       <workItem from="1646831729783" duration="1652000" />
       <workItem from="1646835141782" duration="3469000" />
+      <workItem from="1646838708051" duration="655000" />
+      <workItem from="1646839417481" duration="161000" />
+      <workItem from="1646839601314" duration="496000" />
+      <workItem from="1646920817780" duration="834000" />
     </task>
     <task id="LOCAL-00001" summary="test: add home unit test">
       <created>1646837976426</created>
@@ -103,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1646837976426</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test: add unit test">
+      <created>1646838822146</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646838822146</updated>
+    </task>
+    <task id="LOCAL-00003" summary="chore: webstorm config">
+      <created>1646838909816</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646838909816</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +166,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test: add home unit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: add home unit test" />
+    <MESSAGE value="test: add unit test" />
+    <MESSAGE value="chore: webstorm config" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: webstorm config" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
