@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="866aba2a-9df0-4dc9-98c8-41acccd4f50b" name="Changes" comment="ci: github ci">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +111,7 @@
       <workItem from="1646838708051" duration="655000" />
       <workItem from="1646839417481" duration="161000" />
       <workItem from="1646839601314" duration="496000" />
-      <workItem from="1646920817780" duration="949000" />
+      <workItem from="1646920817780" duration="1287000" />
     </task>
     <task id="LOCAL-00001" summary="test: add home unit test">
       <created>1646837976426</created>
@@ -140,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646921691877</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ci: github ci">
+      <created>1646921797503</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646921797503</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
